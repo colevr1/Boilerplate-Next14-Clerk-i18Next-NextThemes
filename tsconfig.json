@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    ".next/types/app/(auth)/(routes)/sign-in/[[...sign-in]]/page.tsx",
+    "src/middleware.ts",
+    "src/app/[lng]/layout.tsx",
+    "src/app/[lng]/(dashboard)/(routes)/page.tsx",
+    "src/app/[lng]/(dashboard)/layout.tsx",
+    "src/app/[lng]/(auth)/(routes)/sign-in/[[...sign-in]]/page.tsx",
+    "src/app/api/test/route.js",
+    "src/app/[lng]/(dashboard)/_components/menuBarRoutes.tsx",
+    "_sorgenti/ts_files/index.js",
+    "_sorgenti/ts_files/metadata.js",
+    "_sorgenti/ts_files/client.js",
+  ],
+  "exclude": ["node_modules"]
+}
