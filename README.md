@@ -1,4 +1,4 @@
-# Next.js 14.2.3 with APP Routing Boilerplate with Clerk, i18n, Radix-UI Themes, and Next-themes for Light and Dark Theme
+# Next.js 14.2.3 with APP Routing Boilerplate with Clerk, i18next, Radix-UI Themes, and Next-themes for Light and Dark Theme
 
 This project is a boilerplate template designed to help developers quickly set up Next.js 14 projects with integrated features such as Clerk authentication, internationalization (i18n), and theming.
 
@@ -28,6 +28,17 @@ This is a Next.js project bootstrapped with [`create-next-app`](https://github.c
 - **React Hook Form:** Simplifies form handling with React Hook Form v7.51.5, providing efficient and flexible form validation.
 - **React Hot Toast:** Adds toast notifications for better user feedback.
 - **Linting and TypeScript Support:** Includes ESLint with TypeScript support for maintaining code quality and consistency.
+
+![image](https://github.com/colevr1/Boilerplate-Next14-Clerk-i18Next-NextThemes/assets/34273028/f452ee61-5242-4928-8520-9a05d50140d1)
+
+![image](https://github.com/colevr1/Boilerplate-Next14-Clerk-i18Next-NextThemes/assets/34273028/85fad782-861a-486c-8364-4af6fd27250f)
+
+![image](https://github.com/colevr1/Boilerplate-Next14-Clerk-i18Next-NextThemes/assets/34273028/6add1bb9-3e39-45ba-8356-e52f556959be)
+
+![image](https://github.com/colevr1/Boilerplate-Next14-Clerk-i18Next-NextThemes/assets/34273028/ed299f05-dec9-4c2a-890b-2804a9434020)
+
+![image](https://github.com/colevr1/Boilerplate-Next14-Clerk-i18Next-NextThemes/assets/34273028/690922ed-7793-4bd6-98b1-3f0dccd60cad)
+
 
 ## Dependencies
 
