@@ -27,7 +27,7 @@ type MiddleProps = {
 function setLanguageCookie({ response, cookieName, cookieValue }: MiddleProps) {
   const maxAge = 60 * 60 * 24 * 7; // one week
   // Set the cookie using response headers because NextResponse does not have a 'cookies' property
-  const cookieHeader = `${cookieName}=${cookieValue}; Path=/; Max-Age=${maxAge}; HttpOnly; SameSite=Lax`;
+  const cookieHeader = `${cookieName}=${cookieValue}; Path=/; Max-Age=${maxAge}; SameSite=Strict`;
   response.headers.set("Set-Cookie", cookieHeader);
 }
 
