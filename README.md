@@ -15,19 +15,15 @@ This is a Next.js project bootstrapped with [`create-next-app`](https://github.c
 ## Main Features
 
 - **Translations:** Detects the browser language, stores it in a cookie, and updates/stores the cookie when the application language is changed.
-- **Combined Middleware:** Not perfect, but works for both Clerk and i18n when using App Routing. It also handles the situation when you manually delete the language cookies and then log out from Clerk. The API route is protected, so you can visit http://localhost:3000/api/test only after logging in. The API path is not internationalized.
+- **Combined Middleware:** Works for both Clerk and i18n when using App Routing. It also handles the situation when you manually delete the language cookies and then log out from Clerk. The API route is protected, so you can visit http://localhost:3000/api/test only after logging in. The API path is not internationalized.
 - **Clerk Internationalization and Theming:** Clerk now respects the language and theme of the application.
 - **Server-side and Client-Side Translations:** Working!
--**Theme:** I added a couple of Radix-UI primitive components in case you don't want to use the entire Radix-UI Theming System. In this case, just uninstall **@radix-ui/themes** and keep the other primitives.
-- **Hydration errors:** The setup aims to avoid hydration errors without using suppressHydrationWarning.
-- **Next.js 14.2.3:** Utilizes version 14.2.3 for enhanced performance and developer experience.
-- **Clerk Authentication:** Integrates user authentication and authorization using Clerk v5.1.3.
+-- **Theme:** I added a couple of Radix-UI primitive components in case you don't want to use the entire Radix-UI Theming System. In this case, just uninstall **@radix-ui/themes** and keep the other primitives.
+-- **Hydration errors:** The setup aims to avoid hydration errors without using suppressHydrationWarning.
 - **Internationalization (i18n):** Supports multiple languages with i18n v23.11.5 and react-i18next v14.1.2, making your application accessible globally.
 - **Theming:** Provides light and dark themes using Radix UI Themes v3.0.5.
-- **Tailwind CSS:** Enables rapid UI development and easy customization.
-- **React Hook Form:** Simplifies form handling with React Hook Form v7.51.5, providing efficient and flexible form validation.
-- **React Hot Toast:** Adds toast notifications for better user feedback.
-- **Linting and TypeScript Support:** Includes ESLint with TypeScript support for maintaining code quality and consistency.
+
+## Screenshots
 
 ![image](https://github.com/colevr1/Boilerplate-Next14-Clerk-i18Next-NextThemes/assets/34273028/f452ee61-5242-4928-8520-9a05d50140d1)
 
